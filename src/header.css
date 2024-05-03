@@ -1,0 +1,70 @@
+/* Header.css */
+
+.header-container {
+  background-color: #add8e6; /* Couleur de fond du header */
+  padding: 20px 0; /* Espacement intérieur du header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre douce pour le header */
+}
+
+.header-content {
+ display: flex; /* Utiliser la disposition flexbox */
+  justify-content: space-between; /* Aligner les éléments sur l'axe principal */
+  align-items: center; /* Aligner les éléments sur l'axe transversal */
+  max-width: 1200px; /* Largeur maximale du contenu du header */
+  margin: 0 auto; /* Centrer le contenu horizontalement */
+}
+
+.logo-container {
+  display: flex; /* Utiliser la disposition flexbox */
+  align-items: center; /* Aligner les éléments sur l'axe transversal */
+}
+
+.proprio {
+  width: 40px; /* Largeur du logo */
+  height: auto; /* Hauteur automatique pour maintenir les proportions */
+  margin-right: 10px; /* Marge à droite du logo */
+}
+
+.company-name {
+  font-size: 18px; /* Taille de police du nom de l'entreprise */
+  font-weight: bold; /* Gras pour le nom de l'entreprise */
+}
+
+.question-icon {
+  background-color: #f0f0f0; /* Couleur de fond de l'icône de question */
+  width: 30px; /* Largeur de l'icône de question */
+  height: 30px; /* Hauteur de l'icône de question */
+  border-radius: 50%; /* Bordure arrondie pour créer un cercle */
+  display: flex; /* Utiliser la disposition flexbox */
+  justify-content: center; /* Aligner l'icône au centre horizontalement */
+  align-items: center; /* Aligner l'icône au centre verticalement */
+  cursor: pointer; /* Curseur pointeur lorsqu'il est survolé */
+}
+
+.menu-items {
+  display: flex; /* Utiliser la disposition flexbox */
+  align-items: center; /* Aligner les éléments sur l'axe transversal */
+}
+
+.menu-items span {
+  margin-right: 10px; /* Marge à droite pour les éléments du menu */
+  font-size: 16px; /* Taille de police pour les éléments du menu */
+  cursor: pointer; /* Curseur pointeur lorsqu'il est survolé */
+  margin-left: 80px; /* Déplacer les éléments vers la gauche avec une marge de 10px */
+}
+
+
+.logout-icon {
+  width: 20px; /* Largeur de l'icône de déconnexion */
+  height: auto; /* Hauteur automatique pour maintenir les proportions */
+}
+
+.for-agents {
+  margin-right: auto; /* Marge à droite automatique pour pousser vers la droite */
+  color: blue; /* Couleur du texte en bleu */
+  text-decoration: underline; /* Souligner le texte */
+}
+
+.logout-button {
+  cursor: pointer; /* Curseur pointeur lorsqu'il est survolé */
+}

@@ -1,0 +1,159 @@
+/* body.css */
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+
+.button-container {
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-between; /* Distribute buttons evenly with spacing */
+  width: 100%; /* Make the container span the full width */
+  margin-bottom: 20px; /* Add spacing below the buttons */
+}
+
+.dashboard-button{
+  margin-bottom: 10px; /* Adjust as needed */
+  padding: 10px 20px; 
+  border-radius: 8px;
+  display: flex;
+  background-color: blue
+
+}
+.account-details-button
+{
+  margin-bottom: 10px; /* Adjust as needed */
+  padding: 10px 20px; /* Adjust as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.new-listing-button {
+  margin-bottom: 10px; /* Adjust as needed */
+  padding: 10px 20px; /* Adjust as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: flex-end; /* Alignement à l'extrême droite */
+  background-color: blue;
+}
+
+.data-card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.data-card {
+  width: 25%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.menu-container {
+  width: 100%;
+ 
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+}
+
+.menu-item,
+.menu-itemsale,
+.menu-rent,
+.menu-land {
+  
+  margin: 5px;
+  padding: auto;
+ 
+  cursor: pointer;
+}
+
+.menu-item.active {
+  border-bottom: 1px solid blue; /* Ajoute une bordure bleue en bas */
+  text-decoration: black;
+}
+.button-container {
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-between; /* Distribute buttons evenly with spacing */
+  width: 100%; /* Make the container span the full width */
+  margin-bottom: 20px; /* Add spacing below the buttons */
+  flex-direction: row; /* Arrange buttons horizontally */
+}
+@media screen and (max-width: 768px) {
+  .data-card {
+    flex-basis: 45%;
+  }
+}
+
+.tableeau th,
+.tableeau td {
+  padding: 35px;
+  text-align: left;} 
+
+ 
+  .sidebar {
+    background-color: #007bff;
+    color: #fff;
+    width: 150px;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    margin-top:20px;
+    
+  }
+  
+  .sidebar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .sidebar-header img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+  
+  .vertical-images {
+    margin-bottom: 20px;
+  }
+  
+  .vertical-images img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  
+  .horizontal-images {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .horizontal-images img {
+    width: 50px;
+    height: 50px;
+  }
+  
